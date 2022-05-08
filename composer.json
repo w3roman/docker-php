@@ -1,0 +1,5 @@
+{
+  "require": {
+    "w3lifer/hello-php": "dev-master"
+  }
+}

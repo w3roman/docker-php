@@ -1,0 +1,29 @@
+services:
+  php5.6-cli:
+    container_name: php5.6-cli
+    build: .docker/php/5.6/cli
+    image: php5.6-cli
+    volumes:
+      - .:/app
+    working_dir: /app
+  php7.2-cli:
+    container_name: php7.2-cli
+    build: .docker/php/7.2/cli
+    image: php7.2-cli
+    volumes:
+      - .:/app
+    working_dir: /app
+  php7.4-cli:
+    container_name: php7.4-cli
+    build: .docker/php/7.4/cli
+    image: php7.4-cli
+    volumes:
+      - .:/app
+    working_dir: /app
+  php8.1-cli:
+    container_name: php8.1-cli
+    build: .docker/php/8.1/cli
+    image: php8.1-cli
+    volumes:
+      - .:/app
+    working_dir: /app
