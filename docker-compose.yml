@@ -6,6 +6,20 @@ services:
     volumes:
       - .:/app
     working_dir: /app
+  php7.0-cli:
+    container_name: php7.0-cli
+    build: .docker/php/7.0/cli
+    image: php7.0-cli
+    volumes:
+      - .:/app
+    working_dir: /app
+  php7.1-cli:
+    container_name: php7.1-cli
+    build: .docker/php/7.1/cli
+    image: php7.1-cli
+    volumes:
+      - .:/app
+    working_dir: /app
   php7.2-cli:
     container_name: php7.2-cli
     build: .docker/php/7.2/cli
@@ -13,10 +27,24 @@ services:
     volumes:
       - .:/app
     working_dir: /app
+  php7.3-cli:
+    container_name: php7.3-cli
+    build: .docker/php/7.3/cli
+    image: php7.3-cli
+    volumes:
+      - .:/app
+    working_dir: /app
   php7.4-cli:
     container_name: php7.4-cli
     build: .docker/php/7.4/cli
     image: php7.4-cli
+    volumes:
+      - .:/app
+    working_dir: /app
+  php8.0-cli:
+    container_name: php8.0-cli
+    build: .docker/php/8.0/cli
+    image: php8.0-cli
     volumes:
       - .:/app
     working_dir: /app
