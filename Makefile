@@ -3,7 +3,7 @@ default:
 
 # ----------------------------------------------------------------------------------------------------------------------
 
-init: down up
+init: down up composer8.0-i
 
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -62,7 +62,7 @@ composer7.4-u:
 
 composer8.0-i:
 	docker compose run --rm php8.0-cli composer i
-	removecomposerr.lock
+	make remove-composer.lock
 composer8.0-u:
 	docker compose run --rm php8.0-cli composer u
 	make remove-composer.lock
