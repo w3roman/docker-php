@@ -3,18 +3,18 @@ default:
 
 # ----------------------------------------------------------------------------------------------------------------------
 
-init: down up composer8.0-i
+init: down up composer8.1-i
 
 # ----------------------------------------------------------------------------------------------------------------------
 
 down:
-	docker compose down -v
+	docker compose down -v --remove-orphans
 
 up:
-	docker compose up -d --build
+	docker compose up -d --build --remove-orphans
 
 remove-composer.lock:
-	docker compose run --rm php8.0-cli rm composer.lock
+	docker compose run --rm php8.0-cli rm -f composer.lock
 
 # ----------------------------------------------------------------------------------------------------------------------
 
