@@ -25,6 +25,7 @@ php-all:
 	docker compose run --rm php7.4-cli php app.php
 	docker compose run --rm php8.0-cli php app.php
 	docker compose run --rm php8.1-cli php app.php
+	docker compose run --rm php8.2-cli php app.php
 
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -113,5 +114,16 @@ composer8.1-u:
 	docker compose run --rm php8.1-cli composer u
 composer8.1-req:
 	docker compose run --rm php8.1-cli composer req
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+php8.2:
+	docker compose run --rm php8.2-cli php app.php
+composer8.2-i:
+	docker compose run --rm php8.2-cli composer i
+composer8.2-u:
+	docker compose run --rm php8.2-cli composer u
+composer8.2-req:
+	docker compose run --rm php8.2-cli composer req
 
 # ----------------------------------------------------------------------------------------------------------------------
