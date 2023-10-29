@@ -1,5 +1,10 @@
 FROM php:5.6.40-cli
 
+# https://stackoverflow.com/a/76095392/4223982
+RUN sed -i -e 's/deb.debian.org/archive.debian.org/g' \
+           -e 's|security.debian.org|archive.debian.org/|g' \
+           -e '/stretch-updates/d' /etc/apt/sources.list
+
 RUN apt update && apt -y install unzip
 
 # install-php-extensions
