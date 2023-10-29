@@ -1,6 +1,6 @@
 FROM php:8.2.12-cli
 
-RUN apt-get update && apt-get -y install unzip
+RUN apt update && apt -y install unzip
 
 # install-php-extensions
 ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
