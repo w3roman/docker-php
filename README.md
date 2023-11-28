@@ -1,6 +1,6 @@
 # docker-php
 
-All versions of PHP in Docker containers.
+All versions of PHP in Docker containers
 
 ## How to use
 
