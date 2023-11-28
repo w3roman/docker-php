@@ -6,3 +6,5 @@
 
 // $helloPhp = new HelloPhp();
 // $helloPhp->sayHello();
+
+echo phpversion() . "\n";

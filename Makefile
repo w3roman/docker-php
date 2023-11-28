@@ -127,3 +127,14 @@ composer8.2-req:
 	docker compose run --rm php8.2-cli composer req
 
 # ----------------------------------------------------------------------------------------------------------------------
+
+php8.3:
+	docker compose run --rm php8.3-cli php app.php
+composer8.3-i:
+	docker compose run --rm php8.3-cli composer i
+composer8.3-u:
+	docker compose run --rm php8.3-cli composer u
+composer8.3-req:
+	docker compose run --rm php8.3-cli composer req
+
+# ----------------------------------------------------------------------------------------------------------------------
