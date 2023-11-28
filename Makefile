@@ -26,6 +26,7 @@ php-all:
 	docker compose run --rm php8.0-cli php app.php
 	docker compose run --rm php8.1-cli php app.php
 	docker compose run --rm php8.2-cli php app.php
+	docker compose run --rm php8.3-cli php app.php
 
 # ----------------------------------------------------------------------------------------------------------------------
 
