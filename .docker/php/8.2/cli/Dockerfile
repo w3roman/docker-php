@@ -1,4 +1,4 @@
-FROM php:8.2.12-cli
+FROM php:8.2.13-cli
 
 RUN apt update && apt -y install unzip
 
