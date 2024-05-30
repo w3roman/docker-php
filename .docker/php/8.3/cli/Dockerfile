@@ -1,4 +1,4 @@
-FROM php:8.3.6-cli
+FROM php:8.3.7-cli
 
 RUN apt update && apt -y install unzip
 
