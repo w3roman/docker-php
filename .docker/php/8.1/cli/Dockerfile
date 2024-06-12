@@ -1,4 +1,4 @@
-FROM php:8.1.28-cli
+FROM php:8.1.29-cli
 
 RUN apt update && apt -y install unzip
 

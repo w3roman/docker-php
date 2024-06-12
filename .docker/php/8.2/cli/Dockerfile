@@ -1,4 +1,4 @@
-FROM php:8.2.19-cli
+FROM php:8.2.20-cli
 
 RUN apt update && apt -y install unzip
 
