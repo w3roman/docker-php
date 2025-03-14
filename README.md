@@ -1,10 +1,11 @@
 # [docker-php](https://github.com/w3roman/docker-php)
 
-All versions of PHP in Docker containers: https://hub.docker.com/_/php
+All versions of [PHP](https://hub.docker.com/_/php) in Docker containers ([tags](https://hub.docker.com/_/php/tags?name=8.4.5&ordering=-name))
 
-- [How to use](#how-to-use)
+- [Usage](#usage)
+  - [Composer](#composer) 
 
-## How to use
+## Usage
 
 ``` sh
 make php5.6 # will execute app.php using version 5.6
@@ -19,6 +20,7 @@ make php8.0 # will execute app.php using version 8.0
 make php8.1 # will execute app.php using version 8.1
 make php8.2 # will execute app.php using version 8.2
 make php8.3 # will execute app.php using version 8.3
+make php8.4 # will execute app.php using version 8.4
 
 make php-all # will execute app.php using all versions above
 ```
