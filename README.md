@@ -22,7 +22,7 @@ make php8.2 # will execute app.php using version 8.2
 make php8.3 # will execute app.php using version 8.3
 make php8.4 # will execute app.php using version 8.4
 
-make php-all # will execute app.php using all versions above
+make php # will execute app.php using all versions above
 ```
 
 ### Composer

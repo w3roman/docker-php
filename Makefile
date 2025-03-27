@@ -16,7 +16,7 @@ up:
 remove-composer.lock:
 	docker compose run --rm php5.6-cli rm -f composer.lock
 
-php-all:
+all:
 	docker compose run --rm php5.6-cli php app.php
 	docker compose run --rm php7.0-cli php app.php
 	docker compose run --rm php7.1-cli php app.php
