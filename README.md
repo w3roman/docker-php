@@ -1,6 +1,6 @@
 # [docker-php](https://github.com/w3roman/docker-php)
 
-All versions of [PHP](https://hub.docker.com/_/php) in Docker containers ([tags](https://hub.docker.com/_/php/tags?name=8.4.5&ordering=-name))
+All versions of [PHP](https://hub.docker.com/_/php) in Docker containers ([tags](https://hub.docker.com/_/php/tags))
 
 - [Usage](#usage)
   - [Composer](#composer) 
