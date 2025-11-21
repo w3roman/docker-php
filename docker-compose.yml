@@ -9,74 +9,62 @@ services:
 
   php5.6-cli:
     build: ./.docker/php/5.6/cli
-    image: php5.6-cli
-    container_name: php5.6-cli
+    container_name: docker-php-5.6
     <<: *defaults
 
   php7.0-cli:
     build: ./.docker/php/7.0/cli
-    image: php7.0-cli
-    container_name: php7.0-cli
+    container_name: docker-php-7.0
     <<: *defaults
 
   php7.1-cli:
     build: ./.docker/php/7.1/cli
-    image: php7.1-cli
-    container_name: php7.1-cli
+    container_name: docker-php-7.1
     <<: *defaults
 
   php7.2-cli:
     build: ./.docker/php/7.2/cli
-    image: php7.2-cli
-    container_name: php7.2-cli
+    container_name: docker-php-7.2
     <<: *defaults
 
   php7.3-cli:
     build: ./.docker/php/7.3/cli
-    image: php7.3-cli
-    container_name: php7.3-cli
+    container_name: docker-php-7.3
     <<: *defaults
 
   php7.4-cli:
     build: ./.docker/php/7.4/cli
-    image: php7.4-cli
-    container_name: php7.4-cli
+    container_name: docker-php-7.4
     <<: *defaults
 
   php8.0-cli:
     build: ./.docker/php/8.0/cli
-    image: php8.0-cli
-    container_name: php8.0-cli
+    container_name: docker-php-8.0
     <<: *defaults
 
   php8.1-cli:
     build: ./.docker/php/8.1/cli
-    image: php8.1-cli
-    container_name: php8.1-cli
+    container_name: docker-php-8.1
     <<: *defaults
 
   php8.2-cli:
     build: ./.docker/php/8.2/cli
-    image: php8.2-cli
-    container_name: php8.2-cli
+    container_name: docker-php-8.2
     <<: *defaults
 
   php8.3-cli:
     build: ./.docker/php/8.3/cli
-    image: php8.3-cli
-    container_name: php8.3-cli
+    container_name: docker-php-8.3
     <<: *defaults
 
   php8.4-cli:
     build: ./.docker/php/8.4/cli
-    image: php8.4-cli
-    container_name: php8.4-cli
+    container_name: docker-php-8.4
     <<: *defaults
 
   php8.5-cli:
     build: ./.docker/php/8.5/cli
-    image: php8.5-cli
-    container_name: php8.5-cli
+    container_name: docker-php-8.5
     <<: *defaults
 
 networks:
