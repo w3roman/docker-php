@@ -73,6 +73,12 @@ services:
     container_name: php8.4-cli
     <<: *defaults
 
+  php8.5-cli:
+    build: ./.docker/php/8.5/cli
+    image: php8.5-cli
+    container_name: php8.5-cli
+    <<: *defaults
+
 networks:
   default:
     name: docker-php-default
