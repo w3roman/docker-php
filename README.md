@@ -21,7 +21,8 @@ make php8.1 # will execute app.php using version 8.1
 make php8.2 # will execute app.php using version 8.2
 make php8.3 # will execute app.php using version 8.3
 make php8.4 # will execute app.php using version 8.4
-make php8.5 # will execute app.php using version 8.4
+make php8.5 # will execute app.php using version 8.5
+make php8.6 # will execute app.php using version 8.6
 
 make php # will execute app.php using all versions above
 ```
